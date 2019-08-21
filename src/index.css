@@ -2,7 +2,7 @@
   font-family: "Ozone";
   src: url("./Ozone.ttf");
   font-weight: 400;
-  font-style: normal;
+  font-style: cursive;
 }
 
 * {
@@ -32,8 +32,8 @@ button {
   padding: 1rem 2rem;
   margin: 0;
   text-decoration: none;
-  background: #414141;
-  color: #ffffff;
+  background: #185fca;
+  color: #d700e3;
   font-family: inherit;
   font-size: 1.6rem;
   cursor: pointer;
@@ -45,11 +45,11 @@ button {
 
 button:hover,
 button:focus {
-  background: #a2272d;
+  background: #f200d2;
 }
 
 button:focus {
-  outline: 1px solid #fff;
+  outline: 1px solid rgb(2, 222, 211);
   outline-offset: -4px;
 }
 
