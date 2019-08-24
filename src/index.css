@@ -2,7 +2,7 @@
   font-family: "Ozone";
   src: url("./Ozone.ttf");
   font-weight: 400;
-  font-style: cursive;
+  font-style: normal;
 }
 
 * {
@@ -21,6 +21,10 @@ body {
   font-size: 1.6rem;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -32,8 +36,8 @@ button {
   padding: 1rem 2rem;
   margin: 0;
   text-decoration: none;
-  background: #185fca;
-  color: #d700e3;
+  background: #414141;
+  color: #ffffff;
   font-family: inherit;
   font-size: 1.6rem;
   cursor: pointer;
@@ -45,11 +49,11 @@ button {
 
 button:hover,
 button:focus {
-  background: #f200d2;
+  background: #f77b08;
 }
 
 button:focus {
-  outline: 1px solid rgb(2, 222, 211);
+  outline: 1px solid #fff;
   outline-offset: -4px;
 }
 
